@@ -89,33 +89,26 @@
             ground.material.diffuseTexture = groundTexture;
 
             BABYLON.SceneLoader.ImportMeshAsync("", "https://juand-20.github.io/babylonscene/", "casa_exox23.obj").then((result) => {
-            result.meshes[1].position.x = 4;
-            result.meshes[1].scaling = new BABYLON.Vector3(0.3, 0.3, 0.3);    
-
+            result.meshes[1].position.x = 20;
+            result.meshes[1].scaling = new BABYLON.Vector3(0.05, 0.05, 0.05);    
 
         });
 
             BABYLON.SceneLoader.ImportMeshAsync("", "https://juand-20.github.io/babylonscene/", "canoa_X3000.obj").then((result) => {
-            result.meshes[1].position.x = -4;
-            result.meshes[1].rotation.x = BABYLON.Tools.ToRadians(45);;
-            result.meshes[1].material = mat1;
-            result.meshes[1].scaling = new BABYLON.Vector3(0.3, 0.3, 0.3);
+            result.meshes[1].position.x = 10;
+            result.meshes[1].scaling = new BABYLON.Vector3(0.05, 0.05, 0.05);
     
         });
 
             BABYLON.SceneLoader.ImportMeshAsync("", "https://juand-20.github.io/babylonscene/", "chiguiroX.obj").then((result) => {
-            result.meshes[1].position.x = -2;
-            result.meshes[1].rotation.x = BABYLON.Tools.ToRadians(45);;
-            result.meshes[1].material = mat1;
-            result.meshes[1].scaling = new BABYLON.Vector3(0.3, 0.3, 0.3);
+            result.meshes[1].position.x = -10;
+            result.meshes[1].scaling = new BABYLON.Vector3(0.05, 0.05, 0.05);
     
         });
 
             BABYLON.SceneLoader.ImportMeshAsync("", "https://juand-20.github.io/babylonscene/", "cocodrilaptorX.obj").then((result) => {
-            result.meshes[1].position.x = 2;
-            result.meshes[1].rotation.x = BABYLON.Tools.ToRadians(45);;
-            result.meshes[1].material = mat1;
-            result.meshes[1].scaling = new BABYLON.Vector3(0.3, 0.3, 0.3);
+            result.meshes[1].position.x = 0;
+            result.meshes[1].scaling = new BABYLON.Vector3(0.05, 0.05, 0.05);
     
         });
 
@@ -149,3 +142,4 @@
     </script>
 </body>
 </html>
+
